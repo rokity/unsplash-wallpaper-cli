@@ -1,0 +1,22 @@
+{
+  "name": "unsplash-wallpaper-cli",
+  "version": "1.0.0",
+  "description": "change wallpaper picture by unsplash.com from cli with a periodic time passed via parameter on CLI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "time":"node index.js -t 120",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riccardo Amadio",
+  "license": "ISC",
+  "bin":{"unsplash":"./index.js"},
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "request": "^2.70.0",
+    "url": "^0.11.0",
+    "wallpaper": "^2.1.1"
+  }
+}
